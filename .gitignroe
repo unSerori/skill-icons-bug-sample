@@ -1,0 +1,26 @@
+# Linux/Unix specific temporary files
+.nfs*
+
+# macOS specific system files
+.DS_Store
+.AppleDouble
+__MACOSX
+
+# Windows specific system files
+Desktop.ini
+
+# Editor and IDE specific temporary or configuration files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# env file
+.env
+*.env*
+
+# memo
+memo.*
+
+# empty directory
+!.gitignore
